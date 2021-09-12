@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.abstract {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('https://cdn.stocksnap.io/img-thumbs/960w/dark-mountain_8Y2RPT3IA7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    opacity: 0.6;
+}
+
+.head1 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+.head2 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: wheat;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.head3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    position: relative;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    size: 20px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: teal;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.nav-links ul li:hover::after {
+    width: 75%;
+}
+
+#time {
+    margin: 20px, 20px, 20px, 20px;
+    display: flex;
+}
+
+table {
+    margin: 75px 0px 50px 0px;
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    border-color: white;
+    table-layout: fixed;
+    z-index: 2;
+    align-content: center;
+}
+table, th, td {
+    background-color: rgba(209, 212, 224, 0.24);
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration-color: teal;
+    text-decoration-line: underline;
+    padding-bottom: 30px;
+}
+
+.intro1 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px 100px;
+}
+
+.intro2 {
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    text-align: center;
+    padding: 10px 10px;
+}
+.intro3 {
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    text-align: center;
+    padding: 10px 10px;
+}
