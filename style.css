@@ -107,7 +107,7 @@ table, th, td {
 }
 
 caption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 25px;
     text-decoration-color: teal;
     text-decoration-line: underline;
@@ -133,4 +133,8 @@ caption {
     color: wheat;
     text-align: center;
     padding: 10px 10px;
+}
+
+.box{
+    height: 30%;
 }
