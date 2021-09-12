@@ -1,0 +1,68 @@
+#abstract {
+    background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/dark-mountain_8Y2RPT3IA7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.black {
+    background-color: black;
+}
+.head1 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+.head2 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: wheat;
+    text-align: center;
+}
+
+.head3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    margin: 100px, 0px, 0px, 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+button {
+    background: transparent;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 2px whitesmoke;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: small;
+    position: relative;
+}
+
+#time {
+    margin: 20px, 20px, 20px, 20px;
+    display: none;
+}
+
+table {
+    width: 100%;
+    line-height: 50px;
+    border-color: white;
+    table-layout: fixed;
+    z-index: 2;
+}
+table, th, td {
+    border-color: white;
+    border-style: solid;
+    border-collapse: collapse;
+}
