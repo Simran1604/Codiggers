@@ -214,11 +214,12 @@ p {
 .student .container {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 25px;
-    column-gap: 25px;
+    row-gap: 100px;
+    column-gap: 100px;
     margin-left: 30px;
     margin-top: 30px;
     margin-right: auto;
+    padding-left: 5%;
 }
 
 
@@ -250,7 +251,7 @@ p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    background-color: rgba(209, 212, 224, 0.753);
+    background-color: rgba(209, 212, 224, 0.24);
     left: 0;
     bottom: 0;
     text-align: center;
