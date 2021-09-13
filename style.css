@@ -12,19 +12,45 @@
     min-height: 100vh;
     position: relative;
 }
-#logo {
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    opacity: 0.6;
+.head {
+    font-family: 'Nanum Myeongjo', serif;
+    background: rgb(13, 105, 105, 0.3);
+    color: whitesmoke;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    
 }
 
+.noticeBoard {
+    margin: 75px 0px 50px 0px;
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    border-color: white;
+    table-layout: fixed;
+    align-content: center;
+    background-color: rgba(209, 212, 224, 0.24);
+}
+ ol {
+     font-family: 'Nanum Myeongjo', serif;
+     font-size: 20px;
+     text-align: left;
+     color: whitesmoke;
+     font-weight: 500;
+     margin-left: 50px;
+     position: relative;
+     display: grid;
+ }
 .head1 {
     font-family: 'Nanum Myeongjo', serif;
     color: aliceblue;
     text-align: center;
     text-transform: uppercase;
     padding: 20px 20px;
+    margin-top: 20px;
+    position: relative;
 }
 .head2 {
     font-family: 'Nanum Myeongjo', serif;
@@ -151,3 +177,70 @@ html.is-leaving .transition-fade{
     opacity: 0;
     transform: translateX(0);
 }
+
+a:link {
+    color:turquoise;
+    text-decoration: underline;
+    font-size: 20px;
+}
+a:visited {
+    color: turquoise;
+    text-decoration: none;
+}
+a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 17px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+}
+
+.student .container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+}
+
+
+.student .container .profile:hover {
+    box-shadow: rgb(233, 224, 224, 0.7);
+}
+
+.student .container .profile {
+    position: relative;
+}
+
+.student .container .profile img{
+    width: 75px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.details {
+    display: none;
+}
+
