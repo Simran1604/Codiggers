@@ -13,7 +13,7 @@ var showBtn10 = document.getElementById("btn10");
 
 function myFunction1() {
     var x = document.getElementById("det1");
-    if (x.style.display === "none") {
+    if (showBtn1.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn1.innerHTML = "Hide Details"
     } else 
@@ -24,7 +24,7 @@ function myFunction1() {
   }
   function myFunction2() {
     var x = document.getElementById("det2");
-    if (x.style.display === "none") {
+    if (showBtn2.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn2.innerHTML = "Hide Details"
     } else 
@@ -36,7 +36,7 @@ function myFunction1() {
 
   function myFunction3() {
     var x = document.getElementById("det3");
-    if (x.style.display === "none") {
+    if (showBtn3.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn3.innerHTML = "Hide Details"
     } else 
@@ -47,7 +47,7 @@ function myFunction1() {
   }
   function myFunction4() {
     var x = document.getElementById("det4");
-    if (x.style.display === "none") {
+    if (showBtn4.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn4.innerHTML = "Hide Details"
     } else 
@@ -58,7 +58,7 @@ function myFunction1() {
   }
   function myFunction5() {
     var x = document.getElementById("det5");
-    if (x.style.display === "none") {
+    if (showBtn5.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn5.innerHTML = "Hide Details"
     } else 
@@ -69,7 +69,7 @@ function myFunction1() {
   }
   function myFunction6() {
     var x = document.getElementById("det6");
-    if (x.style.display === "none") {
+    if (showBtn6.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn6.innerHTML = "Hide Details"
     } else 
@@ -80,7 +80,7 @@ function myFunction1() {
   }
   function myFunction7() {
     var x = document.getElementById("det7");
-    if (x.style.display === "none") {
+    if (showBtn7.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn7.innerHTML = "Hide Details"
     } else 
@@ -91,7 +91,7 @@ function myFunction1() {
   }
   function myFunction8() {
     var x = document.getElementById("det8");
-    if (x.style.display === "none") {
+    if (showBt81.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn8.innerHTML = "Hide Details"
     } else 
@@ -102,7 +102,7 @@ function myFunction1() {
   }
   function myFunction9() {
     var x = document.getElementById("det9");
-    if (x.style.display === "none") {
+    if (showBtn9.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn9.innerHTML = "Hide Details"
     } else 
@@ -113,7 +113,7 @@ function myFunction1() {
   }
   function myFunction10() {
     var x = document.getElementById("det10");
-    if (x.style.display === "none") {
+    if (showBtn10.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn10.innerHTML = "Hide Details"
     } else 
