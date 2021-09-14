@@ -91,7 +91,7 @@ function myFunction1() {
   }
   function myFunction8() {
     var x = document.getElementById("det8");
-    if (showBt81.innerHTML=="See Details") {
+    if (showBtn8.innerHTML=="See Details") {
       x.style.display = "block";
       showBtn8.innerHTML = "Hide Details"
     } else 
