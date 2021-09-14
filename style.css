@@ -109,6 +109,8 @@ nav {
 #time {
     margin: 20px, 20px, 20px, 20px;
     display: flex;
+    overflow-x: auto;
+    position: relative;
 }
 
 table {
@@ -117,7 +119,7 @@ table {
     width: 100%;
     line-height: 50px;
     border-color: white;
-    table-layout: fixed;
+    table-layout: auto;
     z-index: 2;
     align-content: center;
 }
