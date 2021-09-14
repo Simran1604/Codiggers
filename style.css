@@ -309,6 +309,7 @@ input[type=text], input[type=password], input[type=date] {
 span.pswd {
     float: right;
     padding-top: 16px;
+    font-size: 15px;
 }
 
 
