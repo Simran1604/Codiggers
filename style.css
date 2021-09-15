@@ -28,9 +28,10 @@
     width: 100%;
     line-height: 50px;
     border-color: white;
-    table-layout: fixed;
+    table-layout: auto;
     align-content: center;
     background-color: rgba(209, 212, 224, 0.24);
+    overflow-x: auto;
 }
  ol {
      font-family: 'Nanum Myeongjo', serif;
@@ -47,7 +48,7 @@
     color: aliceblue;
     text-align: center;
     text-transform: uppercase;
-    padding: 0px 20px;
+    padding: 40px 20px;
     margin-top: 20px;
     position: relative;
 }
@@ -183,7 +184,7 @@ a:link {
     color: turquoise;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 1.5%;
+    padding-left: 5px;
 }
 
 a:visited {
@@ -309,12 +310,12 @@ input[type=text], input[type=password], input[type=date] {
 span.pswd {
     float: right;
     padding-top: 16px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 
 .footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -324,6 +325,88 @@ span.pswd {
     bottom: 0;
     text-align: center;
     font-weight: 200;
+}
+
+.user-profile-left {
+    background-color: rgba(108, 116, 143, 0.555);
+    width: 37%;
+    height: fit-content;
+    float: left;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10%;
+    margin-bottom:auto;
+    position: fixed;
+    display: block;
+}
+
+.user-profile-left img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 75%;
+}
+.user-profile-right {
+    background-color: rgba(108, 116, 143, 0.555);
+    width: 50%;
+    height: fit-content;
+    float: right;
+    padding: 15px;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom:auto;
+    position: relative;
+}
+
+.head-todo {
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+
+.note-todo {
+    margin: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.to-do {
+    padding: 20px;
+    margin: 25px;
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+.user-profile-bottom {
+    background-color: rgba(108, 116, 143, 0.555);
+    width: 50%;
+    height: fit-content;
+    float: right;
+    padding: 15px;
+    margin-right: 35px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.user-profile-bottom img {
+    width: 75px;
+    position: relative;
+    padding: none;
+    margin: none;
+    float: center;
+    border-radius: 20%;
+}
+
+.poll {
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .footer img {
