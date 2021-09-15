@@ -47,7 +47,7 @@
     color: aliceblue;
     text-align: center;
     text-transform: uppercase;
-    padding: 20px 20px;
+    padding: 0px 20px;
     margin-top: 20px;
     position: relative;
 }
@@ -180,10 +180,12 @@ html.is-leaving .transition-fade{
 }
 
 a:link {
-    color:turquoise;
+    color: turquoise;
     text-decoration: underline;
     font-size: 20px;
+    padding-left: 1.5%;
 }
+
 a:visited {
     color: turquoise;
     text-decoration: none;
@@ -312,7 +314,7 @@ span.pswd {
 
 
 .footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
