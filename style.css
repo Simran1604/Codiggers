@@ -84,6 +84,7 @@ nav {
     padding: 10px 20px;
     position: relative;
 }
+
 .nav-links ul li a {
     text-decoration: none;
     color: white;
@@ -334,10 +335,12 @@ span.pswd {
     float: left;
     padding: 15px;
     margin-left: 20px;
-    margin-top: 10%;
+    margin-top: 135px;
     margin-bottom:auto;
-    position: fixed;
+    position: absolute;
     display: block;
+    overflow-x: auto;
+    border: 3px solid whitesmoke;
 }
 
 .user-profile-left img {
@@ -358,23 +361,36 @@ span.pswd {
     margin-top: 25px;
     margin-bottom:auto;
     position: relative;
+    overflow-x: auto;
+    border: 3px solid whitesmoke;
+    border-bottom: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.user-profile-right img {
+    width: 75px;
+    position: absolute;
+    padding: 10px;
+    margin: none;
 }
 
 .head-todo {
     text-align: center;
     color: wheat;
-    text-decoration: underline;
+    font-size: 30px;
 }
 
 .note-todo {
-    margin: 25px;
+    margin-top: 10px;
+    font-size: 20px;
     text-align: center;
     color: white;
     font-family: 'Nanum Myeongjo', serif;
 }
 .to-do {
-    padding: 20px;
-    margin: 25px;
+    padding: 10px;
+    margin: 20px;
     line-height: 50px;
     justify-content: space-between;
 }
@@ -389,24 +405,26 @@ span.pswd {
     margin-top: auto;
     margin-bottom: 30px;
     position: relative;
+    overflow-x: auto;
+    border: 3px solid whitesmoke;
+    border-collapse:collapse;
 }
 
 .user-profile-bottom img {
     width: 75px;
-    position: relative;
-    padding: none;
+    position: absolute;
+    padding: 10px;
     margin: none;
-    float: center;
-    border-radius: 20%;
 }
 
 .poll {
     padding: 20px;
     justify-content: space-between;
     color: white;
-    line-height: 50px;
-    font-size: 25px;
+    line-height: 40px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 .footer img {
