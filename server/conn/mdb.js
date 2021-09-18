@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-const DB='mongodb://localhost:5500/'
+const DB='mongodb+srv://sim:simiscool@cluster0.ijdma.mongodb.net/webdev?retryWrites=true&w=majority'
 
 mongoose.connect(DB,{
     useNewUrlPaser:true,
@@ -10,7 +10,3 @@ mongoose.connect(DB,{
 }).then(()=>{
     console.log('connection successful');
 }).catch((e)=>console.log('problem'));
-const middleware=(req, rws, next) =>{
-    console.log('MiddleWare');
-    next();
-}

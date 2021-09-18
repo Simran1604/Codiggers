@@ -11,7 +11,7 @@ app.use(express.json());
 //linking routers
 app.use(require('./routes/auth'));
 
-app.get('https://codiggers.netlify.app/', (req, res) =>{
+app.get('/', (req, res) =>{
     res.send ('Working');
 });
 
@@ -19,6 +19,6 @@ app.listen(port,()=>{
     console.log('Working');
 })
 
-app.get('https://codiggers.netlify.app/signup.html', (req, res) =>{
+app.get('/', (req, res) =>{
     res.send ('Working');
 });
